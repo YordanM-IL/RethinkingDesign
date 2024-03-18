@@ -1,7 +1,5 @@
 package combinator;
 
-import org.openjdk.jol.info.ClassLayout;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -15,7 +13,5 @@ public class Main {
                 .apply(mikeyMouse);
 
         System.out.println(result);
-
-//        System.out.println(ClassLayout.parseInstance(result).toPrintable());
     }
 }

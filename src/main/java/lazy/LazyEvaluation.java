@@ -28,7 +28,7 @@ public class LazyEvaluation {
 
     private static UnaryOperator<String> getInFunc() {
         return s -> {
-            System.out.println("IN func");
+            System.out.println("In func");
             return String.join("-", s.repeat(2).split("")).toUpperCase();
         };
     }

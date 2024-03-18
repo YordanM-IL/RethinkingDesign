@@ -6,11 +6,14 @@ public class CheckoutMain {
     }
 
     public static void main(String[] args) {
+        separate();
+
         System.out.print("Single Offer Basket - ");
         final CheckoutBasketFactory  singleOfferBasket = new SingleOfferBasket(Offers.BLACK_FRIDAY.getOffer());
         singleOfferBasket.total();
 
         separate();
+
         System.out.print("Multi Offer Basket - ");
         final CheckoutBasketFactory multiOffersBasket = new MultiOffersBasket(Offers.WEEKENDS.getOffer(), Offers.CHRISTMAS.getOffer());
         multiOffersBasket.total();

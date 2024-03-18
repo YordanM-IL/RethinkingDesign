@@ -2,6 +2,7 @@ package strategy.oop.without;
 
 import java.util.stream.DoubleStream;
 
+
 public class ShoppingBasket {
 
     private final DoubleStream items = DoubleStream.of(100.99, 14.99, 21, 0.99, 489.89);
